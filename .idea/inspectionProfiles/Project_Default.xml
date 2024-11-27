@@ -1,0 +1,77 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="1" class="java.lang.String" itemvalue="pydantic_core" />
+            <item index="2" class="java.lang.String" itemvalue="httpx" />
+            <item index="3" class="java.lang.String" itemvalue="arrow" />
+            <item index="4" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="5" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="6" class="java.lang.String" itemvalue="cryptography" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="python-multipart" />
+            <item index="9" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="10" class="java.lang.String" itemvalue="attrs" />
+            <item index="11" class="java.lang.String" itemvalue="exceptiongroup" />
+            <item index="12" class="java.lang.String" itemvalue="PyMySQL" />
+            <item index="13" class="java.lang.String" itemvalue="websockets" />
+            <item index="14" class="java.lang.String" itemvalue="Pillow" />
+            <item index="15" class="java.lang.String" itemvalue="watchdog" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E731" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.fields.DateTimeField.strftime" />
+          <option value="object.handle_exception" />
+          <option value="object.finalize_response" />
+          <option value="files.BaseReader.allowed_extenstion" />
+          <option value="ring.polls.models.ChainStatus.objects" />
+          <option value="database.DBTable._meta" />
+          <option value="django.db.models.fields.CharField.capitalize" />
+          <option value="shop.models.ProductFeature.objects" />
+          <option value="shop.models.CategoryFilter.objects" />
+          <option value="shop.models.Product.objects" />
+          <option value="shop.models.Category.objects" />
+          <option value="shop.models.Cart.cart_items" />
+          <option value="shop.models.Product.provider_products" />
+          <option value="shop.models.Product.images" />
+          <option value="restaurant.models.Restaurant.objects" />
+          <option value="restaurant.models.RestaurantProduct.objects" />
+          <option value="models.sqlalchemy.SqlAlchemyModel.c" />
+          <option value="custom_admin.view_mixins.AdminViewMixin.get_serializer_context" />
+          <option value="custom_admin.view_mixins.AdminViewMixin.request" />
+          <option value="custom_admin.view_mixins.AdminViewMixin.kwargs" />
+          <option value="object.perform_destroy" />
+          <option value="object.handle" />
+          <option value="commands.AuthorizedMixin.data" />
+          <option value="commands.JWTAuthorizedMixin.data" />
+          <option value="models.sqlalchemy.Order.items" />
+          <option value="list.add" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
